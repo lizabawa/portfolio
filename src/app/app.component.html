@@ -4,9 +4,14 @@
             <a routerLink="/home">Home</a>
         </li>
         <li>
-            <a routerLink="/projects">Projects</a>
+            Projects
+            <ul>
+                <li *ngFor="let project of projects">
+                    <a routerLink="/projects/{{project.id}}">{{project.title}}</a>
+                </li>
+            </ul>
         </li>
     </ul>
 </nav>
-<router-outlet></router-outlet>
 <app-tagline></app-tagline>
+<router-outlet></router-outlet>

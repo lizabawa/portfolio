@@ -4,7 +4,6 @@ interface Projects {
     languages: string;
     description: string;
 }
-
 export const projects: Projects[] = [
     {
         id: 1,
