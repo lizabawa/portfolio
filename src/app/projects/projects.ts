@@ -4,7 +4,7 @@ interface Projects {
     languages: string;
     description: string;
     github: string;
-    img: any;
+    img: string;
 }
 export const projects: Projects[] = [
     {
