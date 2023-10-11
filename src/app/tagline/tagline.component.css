@@ -5,3 +5,7 @@
     background-image: url("../../assets/images/jumbotron-background.png");
     background-size: cover;
 }
+
+img {
+    border-radius: 50%;
+}
