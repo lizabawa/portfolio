@@ -1,3 +1,5 @@
-body {
+div {
     text-align: center;
+    padding: 105px;
+    background-color: rgb(243, 242, 242);
 }
