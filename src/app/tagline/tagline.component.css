@@ -1,5 +1,7 @@
-div {
+.jumbotron {
     text-align: center;
-    padding: 105px;
-    background-color: rgb(243, 242, 242);
+    padding: 100px;
+    background-color: white;
+    background-image: url("../../assets/images/jumbotron-background.png");
+    background-size: cover;
 }
