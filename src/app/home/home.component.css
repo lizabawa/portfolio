@@ -1,4 +1,4 @@
-button {
+#projects-button {
     background-color: rgb(175, 59, 175);
     color: white;
     border: none;
@@ -6,4 +6,20 @@ button {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#contact-button {
+    background-color: rgb(175, 59, 175);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    left: 25%;
+    transform: translate(-25%, -25%);
+}
+
+#about-me {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
 }

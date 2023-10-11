@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing-module';
 import { SkillsComponent } from './skills/skills.component';
 import { HomeComponent } from './home/home.component';
 import { TaglineComponent } from './tagline/tagline.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TaglineComponent } from './tagline/tagline.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
