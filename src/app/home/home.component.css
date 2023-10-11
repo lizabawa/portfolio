@@ -1,21 +1,27 @@
 #projects-button {
     background-color: rgb(175, 59, 175);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     color: white;
     border: none;
     border-radius: 4px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 50px;
+    width: 90px;
 }
 
 #contact-button {
     background-color: rgb(175, 59, 175);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     color: white;
     border: none;
     border-radius: 4px;
     position: absolute;
     left: 25%;
     transform: translate(-25%, -25%);
+    height: 50px;
+    width: 90px;
 }
 
 #about-me {
