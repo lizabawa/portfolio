@@ -18,3 +18,10 @@ h1 {
     background-color: rgb(255, 188, 63);
     border-radius: 20px;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
