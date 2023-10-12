@@ -4,12 +4,7 @@
             <a routerLink="/home">Home</a>
         </li>
         <li>
-            Projects
-            <ul>
-                <li *ngFor="let project of projects">
-                    <a routerLink="/projects/{{project.id}}">{{project.title}}</a>
-                </li>
-            </ul>
+            <a routerLink="/projects">Projects</a>
         </li>
     </ul>
 </nav>
